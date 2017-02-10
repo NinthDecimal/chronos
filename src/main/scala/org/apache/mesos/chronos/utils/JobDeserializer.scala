@@ -195,7 +195,7 @@ class JobDeserializer extends JsonDeserializer[BaseJob] {
         }
       }
     } else {
-      constraints.add(EqualsConstraint("cluster", "compute"))
+      constraints.add(EqualsConstraint("cluster", "compute_2_0"))
     }
 
     var parentList = scala.collection.mutable.ListBuffer[String]()
